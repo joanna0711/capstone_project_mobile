@@ -1,0 +1,26 @@
+.logo-container {
+  z-index: -1;
+  max-width: 1200px;
+  width: 80%;
+  max-height:1300px;
+  height: 100%;
+  opacity: 0.7;
+  float:right;
+  // position: absolute;
+  top: 0;
+  bottom:0;
+  right: 0;
+  // margin: auto;
+  /* animation: zoomInDown 2.5s ease-in-out 1s; */
+  user-select: none;
+}
+
+
+/* If you want the logo to stay centered and not scale down */
+@media (max-width: 1200px) {
+  .logo-container {
+      max-width: 100%;
+      height: auto;
+  }
+}
+
